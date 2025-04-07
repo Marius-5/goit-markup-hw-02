@@ -221,4 +221,41 @@ button {
 .footer-text {
   color: var(--footer-text-color, #f4f4fd);
 }
+:root {
+  --footer-text-color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer__logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer__logo-part {
+  color: var(--footer-text-color);
+}
+
+.footer__text {
+  line-height: 1.5;
+  color: var(--footer-text-color);
+  letter-spacing: 0.02em;
+}
+:root {
+  --footer-text-color: #f4f4fd;
+}
+.footer__logo-part {
+  color: var(--footer-text-color);
+}
+
+.footer__text {
+  color: var(--footer-text-color);
+}
 /*--------FOOTER------*/
