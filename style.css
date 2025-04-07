@@ -253,6 +253,7 @@ address {
 
 .foot {
   background: #2e2f42;
+  padding: 60px 0;
 }
 
 .a_foot {
@@ -263,10 +264,11 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-.a_foot > span {
-  line-height: 1.17;
+.a_foot > .studio-span {
   color: #f4f4fd;
 }
 
@@ -275,7 +277,11 @@ address {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--cloud); /* або напряму #f4f4fd */
+  max-width: 264px;
 }
 
-/* footer */
+/* Якщо потрібно, можна додати змінну */
+:root {
+  --cloud: #f4f4fd;
+}
