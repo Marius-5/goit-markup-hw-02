@@ -1,28 +1,35 @@
-.body {
+body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #ffffff;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-weight: regular;
+  background-color: #fff;
 }
 
-.nav-logo {
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-------------- Header --------------*/
+
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-
-.nav-logo span {
   color: #4d5ae5;
 }
 
-.nav-list .nav-list-item .link {
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+.header-list-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -30,108 +37,178 @@
   color: #2e2f42;
 }
 
-.nav-list__list-item .link:hover,
-.nav-list__list-item .link:focus {
-  color: #404bbf;
+.contacts {
+  font-style: normal;
 }
 
-.contact .link {
+.address-item-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.contact .link:hover,
-.contact .link:focus {
+.header-list-link:hover,
+.header-list-link:focus {
   color: #404bbf;
 }
 
-.section1 {
-  background-color: #2e2f42;
+.address-item-link:hover,
+.address-item-link:focus {
+  color: #404bbf;
 }
 
-.section1_title {
+/*-------------- Hero --------------*/
+.hero {
+  background: #2e2f42;
+}
+
+.hero-title {
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
-.section1_button {
-  background-color: #4d5ae5;
+.hero-button {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
+  background-color: #4d5ae5;
 }
 
-.section1_button:hover,
-.section1_button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
-.section3_item {
-  background-color: #fff;
+/*-------------- benefits --------------*/
+
+.benefits {
 }
 
-.section3 {
-  background-color: #f4f4fd;
+.benefits-logo {
 }
 
-.section3_header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
+.benefits-list {
+}
+
+.benefits-list-items {
+}
+
+.benefits-items-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
 }
-.text {
+
+.benefits-items-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.h2 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+/*-------------- ourteam --------------*/
+
+.ourteam {
+  background-color: #f4f4fd;
 }
-.portfolio_header {
-  color: #2e2f42;
+
+.ourteam-title {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
   text-transform: capitalize;
 }
 
-.section_footer {
-  background-color: #2e2f42;
-}
-.footer_text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-.section_footer {
-  background-color: #2e2f42;
-}
-.footer-logo span {
-  color: #4d5ae5;
+.ourteam-list {
 }
 
-.footer-logo {
+.ourteam-list-item {
+  background-color: #fff;
+}
+
+.ourteam-item-img {
+}
+
+.ourteam-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.ourteam-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.ourteam-item {
+}
+
+/*-------------- ourportfolio --------------*/
+
+.ourportfolio {
+}
+
+.ourportfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.ourportfolio-list {
+}
+
+.ourportfolio-list-item {
+}
+
+.ourportfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.ourportfolio-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*-------------- footer --------------*/
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo {
+}
+
+.footer-logo-part {
+  text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer_text {
+
+.footer-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
