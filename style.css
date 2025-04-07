@@ -88,18 +88,24 @@ a {
 
 /*-------------- benefits --------------*/
 
-.benefits-items-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+/* Загальний стиль для заголовків та параграфів */
+.benefits-item-title,
+.benefits-item-text {
+  font-family: 'Roboto', sans-serif; /* Шрифт */
+  letter-spacing: 0.02em; /* Відстань між літерами */
 }
 
-.benefits-items-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.benefits-item-title {
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Простір між рядками */
+  color: #2e2f42; /* Колір тексту */
+}
+
+.benefits-item-text {
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Простір між рядками */
+  color: #434455; /* Колір тексту */
 }
 
 /*-------------- ourteam --------------*/
